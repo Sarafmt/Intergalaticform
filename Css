@@ -1,0 +1,84 @@
+h1{color: gold;
+font-family: url(Orbitron/Orbitron-Bold.ttf);
+font-size: 20px;
+font-weight: bolder;
+text-shadow: 1px 1px
+}
+h1:hover{color: aliceblue;}
+body{background-image: url(rymden/rymden.jpg);
+}
+andra:hover{color: fuchsia;}
+.andra{
+    color: rgb(231, 224, 31);
+    font-family: url(Orbitron/Orbitron-Regular.ttf);
+    font-size: 15px;
+    font-weight: 300;
+
+}
+delett:hover{color: darkmagenta;}
+.delett{color: rgb(29, 234, 29);
+font-family: url(Orbitron/Orbitron-Regular.ttf);
+font-size: 15px;
+font-weight: 300;
+}
+p{color: rgb(247, 244, 93);
+}
+label{color: lightpink
+}
+.maten:hover{color: blueviolet;
+}
+.slidercontainer{width: 50%;}
+.ranger{
+    -webkit-animation: normal;
+    appearance: none;
+    width: 50%;
+    height: 20px;
+    background-color: blueviolet;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2;
+}
+.ranger:hover {
+    opacity: 1;
+    color: brown;
+}
+.ranger::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: slateblue;
+    cursor: pointer;
+}
+.checkbox:hover {
+    color: cornflowerblue;
+}
+.checkbox {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .radio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #f2cd13;
+    border-radius: 50%;
+  }
+
+textarea:hover{color: darkolivegreen;
+}
+.textarea{
+    font-family: url(Orbitron/Orbitron-Regular.ttf);
+font-size: 20px;
+font-weight: 250;
+}
